@@ -2,7 +2,7 @@ I didn't have a KB2040 handy that was used in this guide: https://learn.adafruit
 Daemonbite Arcade Encoder customized for use with the Fisher Price Controller using an Arduino Pro Micro in DirectInput mode.  Works great with the MiSTer FPGA. 
 Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 
-## Fisher Price Controller button to Pro Micro map:
+# Fisher Price Controller button to Pro Micro map:
 
 * X - B1
 * Circle - B2
@@ -14,7 +14,12 @@ Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 
 ![guts](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/fc62230c-be8a-49b3-b64d-884a8ae3294b)
 
-## Disable Speaker mod for revision without rear switch
+# Disable Speaker mod for revision without rear switch
 The tradeoff is that it will disable the "learn" sounds and only make sounds in "play" mode. Which I think is the better of the two anyways.
-* Involves 3 trace cuts and 3 wires as shown
+## Switch Positions
+* LEFT - powered off
+* MIDDLE - sounds disabled
+* RIGHT - sounds enabled
+ 
+## Involves 3 trace cuts and 3 wires as shown
 ![IMG_6653](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/d606d9ab-5425-4f3c-970b-c47137ebab69)
