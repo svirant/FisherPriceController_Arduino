@@ -1,5 +1,5 @@
-Daemonbite Arcade Encoder customized for use with the Fisher Price Controller using an Arduino Pro Micro.
 I didn't have a KB2040 handy that was used in this guide: https://learn.adafruit.com/fisher-price-usb-controller?view=all so decided to take a different approach using a daemonbite adapter.
+Daemonbite Arcade Encoder customized for use with the Fisher Price Controller using an Arduino Pro Micro. Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 
 Fisher Price Controller button to Pro Micro map:
 
