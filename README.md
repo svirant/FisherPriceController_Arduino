@@ -13,3 +13,8 @@ Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 ![wiring](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/927fd66c-30b1-4238-81b8-79b671a74bb7)
 
 ![guts](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/fc62230c-be8a-49b3-b64d-884a8ae3294b)
+
+## Disable Speaker mod for revision without rear switch
+The tradeoff is that it will disable the "learn" sounds and only make sounds in "play" mode. Which I think is the better of the two anyways.
+* Involves 3 trace cuts and 3 wires as shown
+![IMG_6653](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/d606d9ab-5425-4f3c-970b-c47137ebab69)
