@@ -7,7 +7,7 @@ Daemonbite Arcade Encoder customized for use with the Fisher Price Controller us
 * Circle - B2
 * Square - B3
 * Triangle - B4
-* LT - B5
+* Blue Push Knob - B5
 
 * UP - A0
 * DOWN - A1
