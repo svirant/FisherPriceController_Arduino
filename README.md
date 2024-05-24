@@ -3,16 +3,16 @@ Daemonbite Arcade Encoder customized for use with the Fisher Price Controller us
 
 Fisher Price Controller button to Pro Micro map:
 
-X - B1
-Circle - B2
-Square - B3
-Triangle - B4
-LT - B5
+X - B1;
+Circle - B2;
+Square - B3;
+Triangle - B4;
+LT - B5;
 
-UP - A0
-DOWN - A1
-LEFT - A2
-RIGHT - A3
+UP - A0;
+DOWN - A1;
+LEFT - A2;
+RIGHT - A3;
 
 ![wiring](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/927fd66c-30b1-4238-81b8-79b671a74bb7)
 
