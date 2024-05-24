@@ -18,8 +18,8 @@ Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 This mod removes the switch's ability to choose sound "modes."  Red wire connection for permanant "play" sounds or omitted for permanent "learn" sounds. I personally prefer the former.
 ## Switch Positions
 * LEFT - powered off
-* MIDDLE - sounds disabled
-* RIGHT - sounds enabled
+* MIDDLE - speaker off
+* RIGHT - speaker on
 
 ## Involves 3 trace cuts and 3 wires as shown
 ![IMG_6653](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/d606d9ab-5425-4f3c-970b-c47137ebab69)
