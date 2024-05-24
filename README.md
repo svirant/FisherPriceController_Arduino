@@ -1,5 +1,6 @@
 I didn't have a KB2040 handy that was used in this guide: https://learn.adafruit.com/fisher-price-usb-controller?view=all so decided to take a different approach.
-Daemonbite Arcade Encoder customized for use with the Fisher Price Controller using an Arduino Pro Micro. Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
+Daemonbite Arcade Encoder customized for use with the Fisher Price Controller using an Arduino Pro Micro. Because of this, only DirectInput mode is supported.  Works fine with the MiSTer FPGA. 
+Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 
 ## Fisher Price Controller button to Pro Micro map:
 
