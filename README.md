@@ -15,7 +15,7 @@ Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 ![guts](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/fc62230c-be8a-49b3-b64d-884a8ae3294b)
 
 # Disable Speaker mod for revision without rear switch
-This mod removes the switches ability to choose sound "modes."  Red wire connection for permanant "play" sounds or omitted for permanent "learn" sounds. I personally prefer the former.
+This mod removes the switch's ability to choose sound "modes."  Red wire connection for permanant "play" sounds or omitted for permanent "learn" sounds. I personally prefer the former.
 ## Switch Positions
 * LEFT - powered off
 * MIDDLE - sounds disabled
