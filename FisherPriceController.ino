@@ -27,7 +27,7 @@ const char *gp_serial = "Daemonbite Arcade";
 
 Gamepad_ Gamepad;           // Set up USB HID gamepad
 bool usbUpdate = false; 
-uint8_t  pin;               // Used in for loops
+
 
 uint8_t  axesDirect = 0x0f;
 uint8_t  axes = 0x0f;
