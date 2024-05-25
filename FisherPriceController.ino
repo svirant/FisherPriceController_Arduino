@@ -29,15 +29,15 @@ Gamepad_ Gamepad;           // Set up USB HID gamepad
 bool usbUpdate = false; 
 
 
-uint8_t  axes = 0x0f;
-uint8_t  axesPrev = 0x0f;
+uint8_t  axis = 0x0f;
+uint8_t  axisPrev = 0x0f;
 
 uint16_t buttons = 0;
 uint16_t buttonsPrev = 0;
 
 void setup() 
 {
-  // Axes
+  // Axis
   DDRF  &= ~B11110000; // Set A0-A3 as inputs
 
   // Buttons
@@ -51,23 +51,23 @@ void loop()
 {
 
     // Read axis and button inputs (bitwise results in a 1 when button/axis pressed)
-    axes = (PINF & B11110000);
+    axis = (PINF & B11110000);
     buttons = (PIND & B00011111);
 
          
     // Has axis inputs changed?
-    if(axes != axesPrev)
+    if(axis != axisPrev)
     {
         // UP + DOWN = UP, SOCD (Simultaneous Opposite Cardinal Directions) Cleaner
-        if(axes & B10000000)
+        if(axis & B10000000)
           Gamepad._GamepadReport.Y = -1;
-        else if(axes & B01000000)
+        else if(axis & B01000000)
           Gamepad._GamepadReport.Y = 1;
         else
           Gamepad._GamepadReport.Y = 0;
         
-      Gamepad._GamepadReport.X = ((axes & B00010000)>>4) - ((axes & B00100000)>>5);       
-      axesPrev = axes;
+      Gamepad._GamepadReport.X = ((axis & B00010000)>>4) - ((axis & B00100000)>>5);       
+      axisPrev = axis;
       usbUpdate = true;
     }
   
