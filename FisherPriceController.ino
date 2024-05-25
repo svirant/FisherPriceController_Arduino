@@ -29,11 +29,9 @@ Gamepad_ Gamepad;           // Set up USB HID gamepad
 bool usbUpdate = false; 
 
 
-uint8_t  axesDirect = 0x0f;
 uint8_t  axes = 0x0f;
 uint8_t  axesPrev = 0x0f;
 
-uint16_t buttonsDirect = 0;
 uint16_t buttons = 0;
 uint16_t buttonsPrev = 0;
 
@@ -51,17 +49,12 @@ void setup()
 
 void loop() 
 {
-  for(uint8_t i=0; i<10; i++) // One iteration (when debounce is enabled) takes approximately 35µs to complete, so we don't need to check the time between every iteration
-  {
+
     // Read axis and button inputs (bitwise results in a 1 when button/axis pressed)
-  axesDirect = (PINF & B11110000);
-  buttonsDirect = (PIND & B00011111);
-    
-  axes = axesDirect;
-  buttons = buttonsDirect;
-  
-    }
-  
+    axes = (PINF & B11110000);
+    buttons = (PIND & B00011111);
+
+         
     // Has axis inputs changed?
     if(axes != axesPrev)
     {
