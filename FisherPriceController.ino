@@ -65,7 +65,10 @@ void loop()
           Gamepad._GamepadReport.Y = 1;
         else
           Gamepad._GamepadReport.Y = 0;
-        
+        // UP + DOWN = NEUTRAL
+        //Gamepad._GamepadReport.Y = ((axes & B01000000)>>6) - ((axes & B10000000)>>7);
+      
+      // LEFT + RIGHT = NEUTRAL  
       Gamepad._GamepadReport.X = ((axis & B00010000)>>4) - ((axis & B00100000)>>5);       
       axisPrev = axis;
       usbUpdate = true;
