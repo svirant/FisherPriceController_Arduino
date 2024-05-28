@@ -21,9 +21,9 @@ Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 * MIDDLE - learn mode
 * RIGHT - play mode
 
-## 6 trace cuts, 1 pin bridge, and 4 wires
-![IMG_6656](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/8b77a573-cc5f-4c1e-ae8b-3541a485316d)
+## 5 trace cuts, 1 resistor removed, 1 pin bridge, and 4 wires
+![IMG_6656 2](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/02e6be64-e081-4454-8502-e9b3971a1b36)
 
-## #Alternate method# - 3 trace cuts and 3 wires as shown
+## #Alternate method# - 3 trace cuts, 2 or 3 wires as shown
 This alternate method requires less cuts and wires but removes the switch's ability to choose sound "modes." Red wire connection for permanant "play" sounds or omitted for permanent "learn" sounds. I personally prefer the former. 
 ![IMG_6653](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/d606d9ab-5425-4f3c-970b-c47137ebab69)
