@@ -15,11 +15,15 @@ Source: https://github.com/MickGyver/DaemonBite-Arcade-Encoder/
 ![guts](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/fc62230c-be8a-49b3-b64d-884a8ae3294b)
 
 # Disable Speaker mod for revision without rear switch
-This mod removes the switch's ability to choose sound "modes."  Red wire connection for permanant "play" sounds or omitted for permanent "learn" sounds. I personally prefer the former.
-## Switch Positions
-* LEFT - powered off
-* MIDDLE - speaker off
-* RIGHT - speaker on
 
-## Involves 3 trace cuts and 3 wires as shown
+## Switch Positions
+* LEFT - speaker off
+* MIDDLE - learn mode
+* RIGHT - play mode
+
+## 5 trace cuts, 1 pin bridge, and 4 wires
+![IMG_6656](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/a86ab041-2494-4d1a-abce-aee5cb0bd5cf)
+
+## #Alternate method# - 3 trace cuts and 3 wires as shown
+This alternate method requires less cuts and wires but removes the switch's ability to choose sound "modes." Red wire connection for permanant "play" sounds or omitted for permanent "learn" sounds. I personally prefer the former. 
 ![IMG_6653](https://github.com/svirant/FisherPriceController_Arduino/assets/62872229/d606d9ab-5425-4f3c-970b-c47137ebab69)
